@@ -10,8 +10,7 @@
 
 
 ### Latest iOS SDK releases
-
-[Releases](https://github.com/Veriff/veriff-sample-ios/blob/master/RELEASES.MD)
+[Releases](https://github.com/Veriff/veriff-sample-ios/blob/master/RELEASES.md)
 
 # Step-By-Step integration guide
 
