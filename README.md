@@ -51,14 +51,18 @@ Every Veriff session is unique for a client. The session expires after 7 days au
 The verification result is sent to the Vendor server in the background. ( See https://developers.veriff.me/#webhooks_decision_post ). Veriff SDK sends callbacks to vendor mobile application via `VeriffDelegate`.
 
 
-### 2.1 Import Veriff in your code:
+### 2.1 Add camera usage description to application Info.plist
+
+Veriff SDK is using camera for capturing photos during identification flow. Application is responsible to describe the reason why camera is used. If Info.plist of application doesn't yet contain `NSCameraUsageDescription` it needs to be added. Value for this key is type of `String` containing reason why app is using camera. Not adding this entry causes system to kill application when it requests permission for camera.
+
+### 2.2 Import Veriff in your code:
 
 ```swift
 import Veriff
 ```
 
 
-### 2.2 Configure SDK before displaying it
+### 2.3 Configure SDK before displaying it
 
 **Setting configuration parameters**
 
@@ -88,7 +92,7 @@ veriff.set(colorSchema: schema)
 ```
 
 
-### 2.3 Handling result codes form SDK
+### 2.4 Handling result codes form SDK
 
 Veriff SDK returns a number of result codes, that application can handle.
 
@@ -117,7 +121,7 @@ Here is list of all possible status codes
 | STATUS_ERROR_UNKNOWN | An unkown error occured |
 
 
-### 2.4 Start verification process 
+### 2.5 Start verification process 
 
 Veriff SDK looks for currently presented `UIViewController` from key `UIWindow`s' root view controller. Using this view controller verification UI is presented.
 
