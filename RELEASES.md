@@ -1,5 +1,27 @@
 ### Latest iOS SDK releases
 
+<details><summary>Release 2.0.1</summary>
+    <ul>
+	<li>Restored support for i386 x86_64 architectures</l>
+    </ul>
+</details>
+<details><summary>Release 2.0.0</summary>
+    <ul>
+	<li>New design</l>
+	<li>Added country selection</l>
+    	<li>Integration changes</li>
+        <li>Reduced library size</li>
+   	<li>Optimizations</li>
+    </ul>
+</details>
+<details><summary>Release 1.6.6</summary>
+	<ul>
+                <li>Brand new UI</li>
+                <li>API updates</li>
+                <li>Optimizations</li>
+	</ul>
+</details>
+
 <details><summary>Release 1.6.6</summary>
 	<ul>
                 <li>Brand new UI</li>
