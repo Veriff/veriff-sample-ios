@@ -31,7 +31,7 @@ sudo gem install cocapods
 Run ```pod init``` in your project folder. This creates Podfile with application target. Under that target add following line.
 
 ```ruby
-pod 'VeriffSDK', '~> 2.0'
+pod 'VeriffSDK', '~> 2.0.0'
 ```
 
 After this is done run ``` pod install ``` in folder conntaining Podfile. This will  download and install VeriffSDK in your Xcode workspace.
@@ -94,7 +94,7 @@ veriff.set(colorSchema: schema)
 
 ### 2.4 Handling result codes form SDK
 
-Veriff SDK returns a number of result codes, that application can handle.
+Veriff SDK returns a number of result codes, that application can handle. Implement `VeriffDelegate` and assign it to delegate property of `Veriff` instance.
 
 Example:
 ```swift
@@ -115,9 +115,9 @@ Here is list of all possible status codes
 | STATUS_USER_CANCELED | User canceled the verification process |
 | STATUS_SUBMITTED | User submitted the photos or finished video call |
 | STATUS_ERROR_SESSION | The session token is either corrupt, or has expired. A new sessionToken needs to be generated in this case  |
-| STATUS_ERROR_NETWORK | Veriff's backend servers could not be reached. |
-| STATUS_ERROR_NO_IDENTIFICATION_METHODS_AVAILABLE | The session status is finished from clients perspective |
-| STATUS_DONE | The client got declined while he was still using the SDK - this status can only occur if video_feature is used and FCM token is set |
+| STATUS_ERROR_NETWORK | SDK could not connect to backend servers. |
+| STATUS_ERROR_NO_IDENTIFICATION_METHODS_AVAILABLE | Given session cannot be started as there are no identification methods |
+| STATUS_DONE | The session status is finished from clients perspective |
 | STATUS_ERROR_UNKNOWN | An unkown error occured |
 
 
@@ -128,7 +128,8 @@ Veriff SDK looks for currently presented `UIViewController` from key `UIWindow`s
 ```swift
 veriff.startAuthentication()
 
-// Alternatively pass ViewController that is used for presenting verification UI. That                // ViewController has to be in view hierarchy and not presenting.
+// Alternatively pass ViewController that is used for presenting verification UI. 
+// That ViewController has to be in view hierarchy and not presenting.
 startAuthentication(from viewController: UIViewController)
 ```
 
@@ -179,7 +180,7 @@ setBackgroundImage(_ imageUrlString: String)
 ```
 v2.0 
 
-Removed background image customization
+Removes background image customization
 
 
 
