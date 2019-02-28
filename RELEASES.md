@@ -1,5 +1,10 @@
 ### Latest iOS SDK releases
 
+<details><summary>Release 2.0.2</summary>
+    <ul>
+	<li>Navigation bar appearance issues fixed</l>
+    </ul>
+</details>
 <details><summary>Release 2.0.1</summary>
     <ul>
 	<li>Restored support for i386 x86_64 architectures</l>
@@ -14,24 +19,10 @@
    	<li>Optimizations</li>
     </ul>
 </details>
-<details><summary>Release 1.6.6</summary>
-	<ul>
-                <li>Brand new UI</li>
-                <li>API updates</li>
-                <li>Optimizations</li>
-	</ul>
-</details>
 
 <details><summary>Release 1.6.6</summary>
-	<ul>
-                <li>Brand new UI</li>
-                <li>API updates</li>
-                <li>Optimizations</li>
-	</ul>
-</details>
 
-<details><summary>Release 1.6.6</summary>
-	<ul>
+​	<ul>
                 <li>New languages added: Dutch, French, Italian</li>
 	</ul>
 </details>
