@@ -1,5 +1,10 @@
 ### Latest iOS SDK releases
-
+<details><summary>Release 2.0.3</summary>
+    <ul>
+	<li>Restores Xcode debugging support</l>
+	<li>Bugfixes</l>
+    </ul>
+</details>
 <details><summary>Release 2.0.2</summary>
     <ul>
 	<li>Navigation bar appearance issues fixed</l>
