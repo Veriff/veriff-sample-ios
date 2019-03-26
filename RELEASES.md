@@ -1,4 +1,11 @@
 ### Latest iOS SDK releases
+<details><summary>Release 2.0.4</summary>
+    <ul>
+	<li>Improving uploading conversions for devices on slow networks</l>
+	<li>Fallback to device language if session is missing language</l>
+	<li>Minor UI changes</l>
+    </ul>
+</details>
 <details><summary>Release 2.0.3</summary>
     <ul>
 	<li>Restores Xcode debugging support</l>
