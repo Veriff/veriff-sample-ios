@@ -1,4 +1,9 @@
 ### Latest iOS SDK releases
+<details><summary>Release 2.0.5</summary>
+    <ul>
+	<li>Xcode 10.2 support</l>
+    </ul>
+</details>
 <details><summary>Release 2.0.4</summary>
     <ul>
 	<li>Improving uploading conversions for devices on slow networks</l>
