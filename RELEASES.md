@@ -1,4 +1,9 @@
 ### Latest iOS SDK releases
+<details><summary>Release 2.1.0</summary>
+    <ul>
+	<li>WebRTC beta support(face detection and bitcode support will follow in 2.2.0)</l>
+    </ul>
+</details>
 <details><summary>Release 2.0.5</summary>
     <ul>
 	<li>Xcode 10.2 support</l>
