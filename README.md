@@ -5,8 +5,9 @@ status: "production"
 type: "application"
 ---
 
-<img src="https://github.com/Veriff/veriff-sample-ios/blob/master/veriff-logo.png">
 
+
+<img src="https://github.com/Veriff/veriff-sample-ios/blob/master/veriff-logo.png">
 
 
 
