@@ -27,7 +27,7 @@ sudo gem install cocapods
 Run ```pod init``` in your project folder. This creates Podfile with application target. Under that target add following line.
 
 ```ruby
-pod 'VeriffSDK', '~> 2.0.0'
+pod 'VeriffSDK', '~> 2.2.0'
 ```
 
 After this is done run ``` pod install ``` in folder conntaining Podfile. This will  download and install VeriffSDK in your Xcode workspace.
@@ -131,7 +131,7 @@ startAuthentication(from viewController: UIViewController)
 
 
 <a name="migration"></a>
-## 3. Migrating from 1.* to 2.0
+## 3. Migrating from 1.* to 2.*
 
 Veriff library 2.0 integration has changed significantly since 1.*. We dropped TwiloVideo and requirement to pass Veriff specific push notifications to SDK. It simplifies setup and is reflected in API. Since SDK 2.0 it's no longer needed to embed Twiliovideo framework in app as SDK doesn't link against it anymore. Also Firebase project created for Veriff SDK is not needed in new version. If there were push notification translations for Veriff messages this can be also removed from Xcode project.
 
@@ -144,7 +144,7 @@ v1.*
 ```swift
 Veriff.sharedInstance() 
 ```
-v2.0
+v2.*
 
 ```swift
 Veriff.shared
@@ -160,7 +160,7 @@ v1.*
 configure(_ block: @escaping VeriffConfigurationBlock)
 ```
 
-v2.0
+v2.*
 
 ```swift
 set(configuration: VeriffConfiguration)
@@ -174,7 +174,7 @@ v1.x
 ```swift
 setBackgroundImage(_ imageUrlString: String)
 ```
-v2.0 
+v2.*
 
 Removes background image customization
 
@@ -188,7 +188,7 @@ v1.x
 createColorSchema(_ block: @escaping VeriffColorSchemaBlock)
 ```
 
-v2.0
+v2.*
 
 ```swift
 set(colorSchema: ColorSchema)
@@ -212,7 +212,7 @@ v1.x
 setResultBlock(_ result: @escaping ProcessBlock)
 ```
 
-v2.0 
+v2.*
 
 Implement `VeriffDelegate` to handle result
 
@@ -236,7 +236,7 @@ v1.x
 requestViewController(completion: @escaping AuthCompletionBlock)
 ```
 
-v2.0
+v2.*
 
 New API despite removing completion closure is still async.
 
