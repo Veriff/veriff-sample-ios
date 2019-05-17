@@ -1,7 +1,11 @@
+---
+owner: "End User"
+description: "This repo holds the code for our iOS SDK Sample Application."
+status: "production"
+type: "application"
+---
+
 <img src="https://github.com/Veriff/veriff-sample-ios/blob/master/veriff-logo.png">
-
-
-
 
 
 
