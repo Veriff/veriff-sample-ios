@@ -2,7 +2,7 @@
 
 
 
-# Mobile SDK Documentation 2.0 iOS
+# Mobile SDK Documentation iOS
 
 
 ### Latest iOS SDK releases
