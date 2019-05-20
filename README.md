@@ -12,6 +12,10 @@
 
 If upgrading from version 1.* skip to [chapter 3](#migration)
 
+## Requirements
+
+Integration Veriff iOS SDK requires at least iOS version 10.0
+
 ## 1. Add framework to a project
 
 ### 1.1 Via Cocoapods
