@@ -31,7 +31,7 @@ sudo gem install cocapods
 Run ```pod init``` in your project folder. This creates Podfile with application target. Under that target add following line.
 
 ```ruby
-pod 'VeriffSDK', '~> 2.2.0'
+pod 'VeriffSDK', '~> 2.3.0'
 ```
 
 After this is done run ``` pod install ``` in folder conntaining Podfile. This will  download and install VeriffSDK in your Xcode workspace.
@@ -68,7 +68,7 @@ import Veriff
 
 | Parameters   | Explanation                                                  |
 | ------------ | ------------------------------------------------------------ |
-| sessionUrl   | Determines the environment for testing: 'https://staging.veriff.me/v1/' and for production: 'https://magic.veriff.me/v1/' |
+| sessionUrl   | Determines the environment for testing: 'https://staging.veriff.me/v1/' and for production: 'https://magic.veriff.me/v1/'. Since SDK version 2.3.0 it's recomended to use url without path component e.g 'https://magic.veriff.me' |
 | sessionToken | The session Token unique for the client. It needs to be generated following https://developers.veriff.me/#sessions_post. Note that token request also sends URL but that is not correct one to use. Prefer ones listed above. |
 
 ```swift
