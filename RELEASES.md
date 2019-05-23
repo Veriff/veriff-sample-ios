@@ -1,4 +1,11 @@
 ### Latest iOS SDK releases
+<details><summary>Release 2.3.0</summary>
+    <ul>
+	<li>Added support for preselected country and document (Fixes #2)</l>
+	<li>New languages added: Czech and Lithuanian</l>
+	<li>Bitcode support</l>
+    </ul>
+</details>
 <details><summary>Release 2.2.0</summary>
     <ul>
 	<li>WebRTC video(bitcode support will follow in 2.2.1)</l>
