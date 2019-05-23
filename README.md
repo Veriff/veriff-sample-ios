@@ -68,7 +68,7 @@ import Veriff
 
 | Parameters   | Explanation                                                  |
 | ------------ | ------------------------------------------------------------ |
-| sessionUrl   | Determines the environment for testing: 'https://staging.veriff.me/v1/' and for production: 'https://magic.veriff.me/v1/' |
+| sessionUrl   | Determines the environment for testing: 'https://staging.veriff.me/v/' and for production: 'https://magic.veriff.me/v/' |
 | sessionToken | The session Token unique for the client. It needs to be generated following https://developers.veriff.me/#sessions_post. Note that token request also sends URL but that is not correct one to use. Prefer ones listed above. |
 
 ```swift
