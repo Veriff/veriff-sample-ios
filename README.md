@@ -25,7 +25,7 @@ Steps to set up dependency manager. Only follow these steps if Cocoapods is not 
 To install Cocoapods run:
 
 ```sh
-sudo gem install cocapods
+sudo gem install cocoapods
 ```
 
 Run ```pod init``` in your project folder. This creates Podfile with application target. Under that target add following line.
@@ -113,7 +113,7 @@ Here is list of all possible status codes
 | ------------ | ------------------------------------------------------ |
 | UNABLE_TO_ACCESS_CAMERA | User denied access to the camera |
 | STATUS_USER_CANCELED | User canceled the verification process |
-| STATUS_SUBMITTED | User submitted the photos or finished video call |
+| STATUS_SUBMITTED | User submitted the photos |
 | STATUS_ERROR_SESSION | The session token is either corrupt, or has expired. A new sessionToken needs to be generated in this case  |
 | STATUS_ERROR_NETWORK | SDK could not connect to backend servers. |
 | STATUS_ERROR_NO_IDENTIFICATION_METHODS_AVAILABLE | Given session cannot be started as there are no identification methods |
