@@ -72,7 +72,7 @@ import Veriff
 | sessionToken | The session Token unique for the client. It needs to be generated following https://developers.veriff.me/#sessions_post. Note that token request also sends URL but that is not correct one to use. Prefer ones listed above. |
 
 ```swift
-let conf = VeriffConfiguration(sessionToken: token, sessionUrl: baseUrl)
+let conf = VeriffConfiguration(sessionToken: token, sessionUrl: url)
 let veriff = Veriff.shared
 veriff.set(configuration: conf)
 ```
