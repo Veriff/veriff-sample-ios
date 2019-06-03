@@ -76,7 +76,7 @@ import Veriff
 
 | Parameters   | Explanation                                                  |
 | ------------ | ------------------------------------------------------------ |
-| sessionUrl   | Determines the environment for testing: 'https://staging.veriff.me/v1/' and for production: 'https://magic.veriff.me/v1/'. Since SDK version 2.3.0 it's recommended to use url without path component e.g 'https://magic.veriff.me' |
+| sessionUrl   | Please use the corresponding url depending on the VeriffSDK version: <br> VeriffSDK < 2.3.0 please use 'https://magic.veriff.me/v1/' <br> VeriffSDK >= 2.3.0 please use 'https://magic.veriff.me' |
 | sessionToken | The session Token unique for the client. It needs to be generated following https://developers.veriff.me/#sessions_post. Note that token request also sends URL but that is not correct one to use. Prefer ones listed above. |
 
 ```swift
