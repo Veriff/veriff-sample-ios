@@ -51,9 +51,17 @@ Every Veriff session is unique for a client. The session expires after 7 days au
 The verification result is sent to the Vendor server in the background. ( See https://developers.veriff.me/#webhooks_decision_post ). Veriff SDK sends callbacks to vendor mobile application via `VeriffDelegate`.
 
 
-### 2.1 Add camera usage description to application Info.plist
+### 2.1 Add usage descriptions to application Info.plist
 
-Veriff SDK is using camera for capturing photos during identification flow. Application is responsible to describe the reason why camera is used. If Info.plist of application doesn't yet contain `NSCameraUsageDescription` it needs to be added. Value for this key is type of `String` containing reason why app is using camera. Not adding this entry causes system to kill application when it requests permission for camera.
+>  Not adding these usage descriptions causes system to kill application when it requests the permissions when needed.
+
+#### 2.1.1 Camera Usage Description
+
+Veriff SDK is using camera for capturing photos during identification flow. Application is responsible to describe the reason why camera is used. You must add `NSCameraUsageDescription` to the info.plist of application with the explanation of usage.
+
+#### 2.1.2 Microphone Usage Description
+
+Veriff SDK is using microphone for capturing video sound during the identification flow. Application is responsible to describe the reason why the microphone is used. You must add `NSMicrophoneUsageDescription` to the info.plist of application with the explanation of usage.
 
 ### 2.2 Import Veriff in your code:
 
