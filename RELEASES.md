@@ -1,4 +1,11 @@
 ### Latest iOS SDK releases
+<details><summary>Release 2.3.2</summary>
+    <ul>
+	<li>Country list is now translated</l>
+	<li>Updated translations</l>
+	<li>Device info logging</l>
+    </ul>
+</details>
 <details><summary>Release 2.3.0</summary>
     <ul>
 	<li>Added support for preselected country and document (Fixes #2)</l>
