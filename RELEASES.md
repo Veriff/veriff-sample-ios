@@ -1,4 +1,12 @@
 ### Latest iOS SDK releases
+<details><summary>Release 2.3.3</summary>
+    <ul>
+	<li>Tap to focus camera</l>
+	<li>Camera started log event added</l>
+        <li>Preselected document string change</l>
+	<li>User can change country and document</l>
+    </ul>
+</details>
 <details><summary>Release 2.3.2</summary>
     <ul>
 	<li>Country list is now translated</l>
