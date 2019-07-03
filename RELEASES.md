@@ -1,9 +1,15 @@
 ### Latest iOS SDK releases
+<details><summary>Release 2.3.4</summary>
+    <ul>
+	<li>Use correct strings for instruction view subtitles</l>
+	<li>Remove 3rd party code from repo</l>
+    </ul>
+</details>
 <details><summary>Release 2.3.3</summary>
     <ul>
 	<li>Tap to focus camera</l>
 	<li>Camera started log event added</l>
-        <li>Preselected document string change</l>
+    <li>Preselected document string change</l>
 	<li>User can change country and document</l>
     </ul>
 </details>
