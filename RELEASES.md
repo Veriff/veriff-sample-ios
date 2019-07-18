@@ -1,4 +1,10 @@
 ### Latest iOS SDK releases
+<details><summary>Release 2.4.0</summary>
+<ul>
+<li>Video mandatory added.</l>
+<li>RTL support added.</l>
+</ul>
+</details>
 <details><summary>Release 2.3.4</summary>
     <ul>
 	<li>Use correct strings for instruction view subtitles</l>
