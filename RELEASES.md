@@ -1,9 +1,15 @@
 ### Latest iOS SDK releases
+<details><summary>Release 2.4.1</summary>
+    <ul>
+        <li>Camera freezeing when coming from background fixed.</l>	
+	<li>Enhanced logging output.</l>
+    </ul>
+</details>
 <details><summary>Release 2.4.0</summary>
-<ul>
-<li>Video mandatory added.</l>
-<li>RTL support added.</l>
-</ul>
+    <ul>
+        <li>Video mandatory added.</l>
+        <li>RTL support added.</l>
+    </ul>
 </details>
 <details><summary>Release 2.3.4</summary>
     <ul>
