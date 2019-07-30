@@ -31,7 +31,7 @@ sudo gem install cocoapods
 Run ```pod init``` in your project folder. This creates Podfile with application target. Under that target add following line.
 
 ```ruby
-pod 'VeriffSDK', '~> 2.3.4'
+pod 'VeriffSDK'
 ```
 
 After this is done run ``` pod install ``` in folder conntaining Podfile. This will  download and install VeriffSDK in your Xcode workspace.
