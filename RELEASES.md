@@ -1,4 +1,11 @@
 ### Latest iOS SDK releases
+<details><summary>Release 2.4.2</summary>
+    <ul>
+        <li>UI improvements.</l>	
+	<li>Turkish language support.</l>
+        <li>Performance & Analytics improvements.</l>
+    </ul>
+</details>
 <details><summary>Release 2.4.1</summary>
     <ul>
         <li>Camera freezeing when coming from background fixed.</l>	
