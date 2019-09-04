@@ -88,17 +88,16 @@ veriff.set(configuration: conf)
 **UI styling**
 
 Some of UI in SDK can be modified to match general appearance of app. This can change with upcoming releases and give more options for styling.
+The Branding struct is used for setting the theme color and navigation bar title image.
 
 | Property | Explanation |
 | ------------- | ------------- |
-| controlsColor | Allows to set custom color for buttons |
+| themeColor | Sets custom color for controls, labels and lists. |
+| navigationBarImage | Sets a custom image for the navigation bar title image. The size should be appropriate for it to fit in a regular navigationItem’s titleView and support all the devices the app itself is supposed to support.|
 
 ```swift
-let schema = ColorSchema()
-schema.controlsColor = .red
-veriff.set(colorSchema: schema)
+conf.branding = Branding(themeColor: UIColor.someColor(), navigationBarImage: UIImage(named: “NavigationBarImageName.png”))
 ```
-
 
 ### 2.4 Handling result codes form SDK
 
