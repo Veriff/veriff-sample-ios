@@ -1,4 +1,11 @@
 ### Latest iOS SDK releases
+<details><summary>Release 2.5.0</summary>
+    <ul>
+    	<li>Support for changing UI colors.</l>	
+		<li>Japanese language support.</l>
+        <li>Performance & Analytics improvements.</l>
+    </ul>
+</details>
 <details><summary>Release 2.4.2</summary>
     <ul>
         <li>UI improvements.</l>	
