@@ -1,4 +1,10 @@
 ### Latest iOS SDK releases
+<details><summary>Release 2.5.1</summary>
+    <ul>
+    	<li>Privacy policy web pages localized</l>	
+        <li>Performance & Analytics improvements.</l>
+    </ul>
+</details>
 <details><summary>Release 2.5.0</summary>
     <ul>
     	<li>Support for changing UI colors.</l>	
